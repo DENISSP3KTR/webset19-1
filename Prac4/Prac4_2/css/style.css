@@ -1,1 +1,69 @@
 @import url(reset.css);
+
+.page {
+	font-family: sans-serif;
+}
+
+a {
+	color: white;
+}
+.header, footer {
+	height: 50px;
+	background-color: black;
+	color: white;
+	padding: 15px;
+	box-sizing: border-box;
+}
+
+.header {
+	font-size: 0;
+	width: 100vw;
+	margin: auto;
+}
+.logo {
+	font-size: 20px;	 
+	width: 20vw;
+	display: inline-block;
+	margin-left: 20vw;
+}
+.menu {
+	font-size: 16px;
+	display: inline-block;
+}
+
+.menu li {
+	margin-right: 5px;
+	display: inline;
+	color: white;
+}
+
+.columns {
+	width: 800px;
+	margin: 50px auto;
+	font-size: 0;
+}
+
+.left {
+	width: 200px;
+	margin-right: 10px;
+	background-color: black;
+	box-sizing: border-box;
+	padding: 20px;
+	font-size: 16px;
+	vertical-align: top;
+	display: inline-block;
+}
+.right {
+	width: 590px;
+	border: 2px solid black;
+	box-sizing: border-box;	 
+	padding: 20px;
+	font-size: 16px;	 
+	vertical-align: top;
+	display: inline-block;
+}
+
+.left a {
+	margin-top: 5px;
+	display: block;
+}
