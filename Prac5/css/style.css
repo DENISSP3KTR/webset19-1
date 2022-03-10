@@ -1,0 +1,88 @@
+@import url(reset.css);
+.header{
+	position: fixed;
+	background: black;
+	width: 100vw;
+	height: 8vw;
+	display: flex;
+	z-index: 1;
+}
+.content{
+	position: absolute;
+	margin-top: 8vw;
+}
+.image-container{
+	width: 30vw;
+	height: 30vw;
+	background-image: url("../img/log.png");
+	background-size: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.header-container{
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: 15vw;
+	color: white;
+	font-weight: 600;
+}
+.header-container h1{
+	font-size: 3vw;
+}
+.header-container2{
+	margin-left: 30vw;
+	display: flex;
+}
+.menu{
+	display: flex;
+}
+ol a{
+	margin-left: 1.5vw;
+}
+.header-container a{
+	font-size: 1.5vw;
+}
+.info{
+	display: flex;
+}
+.info section{
+	background: black;
+	color: white;
+}
+.info h2{
+	font-size: 2vw;
+}
+.info p{
+	font-size: 1vw;
+}
+.infocont{
+	width: 31vw;
+	padding: 1vw;
+	background: black;
+	color: white;
+	text-align: center;
+}
+.bio{
+	margin-left: auto;
+	margin-right: auto;
+}
+.sectionText{
+	margin-bottom: 0.5vw;
+	font-size: 1.5vw;
+}
+.asd{
+	margin-top: 2vw;
+	display: flex;
+	background: black;
+	color: white;
+	padding: 2vw;
+}
+.asd h2{
+	font-size: 3vw;
+	text-align: center;
+	margin-left: 45vw;
+}
+
+.links a{
+	font-size: 2vw;
+}
