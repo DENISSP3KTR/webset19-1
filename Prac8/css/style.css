@@ -1,0 +1,138 @@
+@import url(reset.css);
+
+@media screen and (max-width: 649px) {
+
+	.frm{
+		width: 85vw;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.btn{
+		width: 40vw;
+	}
+
+	.main{
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+	
+}
+
+@media screen and (min-width: 650px) {
+
+	.frm{
+		margin-left: auto;
+		margin-right: auto;
+		width: 55vw;
+		height: 75vh;
+	}
+
+	.btn{
+		width: 25vw;
+	}
+
+	.main{
+		background-size: 100vw 90vh;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+	
+}
+
+@media screen and (min-width: 900px) {
+
+	.frm{
+		margin-left: 5vw;
+		width: 25vw;
+	}
+
+	.main{
+		background-size: 100vw 82vh;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+
+	.btn{
+		width: 15vw;
+	}
+}
+
+@media screen and (min-width: 1600px) {
+
+	.frm{
+		margin-left: 5vw;
+		width: 20vw;
+	}
+
+	.main{
+		background-size: 100vw 82vh;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+
+	.btn{
+		width: 15vw;
+	}
+}
+.header{
+	height: 11vh;
+	background: #89753F;
+}
+
+.main{
+	height: 75vh;
+	background-image: url("../img/logo.jpg");
+	padding-top: 8vh;
+}
+.footer{
+	height: 6vh;
+	background: #89753F;
+	text-align: center;
+	color: white;
+}
+.innput{
+	background: #89753F;
+	border-radius: 15px;
+	padding-left: 2vw;
+	padding-top: 5vh;
+	padding-bottom: 4vh;
+	text-align: left;
+	font-family: 'Didact Gothic', sans-serif;
+	border: 2px solid white;
+}
+.frm{
+	text-align: center;
+	color: white;
+	font-size: 18px;
+}
+.btn{
+	height: 5vh;
+	margin-top: 3vh;
+	border-radius: 20px;
+	border: none;
+	background: #89753F;
+	font-size: 16px;
+	font-family: 'Didact Gothic', sans-serif;
+	color: white;
+	border: 3px solid white;
+}
+.footer h1{
+	padding-top: 2vh;
+	font-size: 24px;
+	font-family: 'Didact Gothic', sans-serif;
+}
+form input{
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid #fff;
+	margin-bottom: 2vh;
+	width: 90%;
+	color: white;
+	font-size: 16px;
+}
+form h1{
+	margin-bottom: 1vh;
+	font-family: 'Didact Gothic', sans-serif;
+}
