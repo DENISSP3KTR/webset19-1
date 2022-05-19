@@ -8,43 +8,65 @@
 	<meta name="viewport" content="width=device-width, user-scalable=yes">
 	<link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
 
-	<title>JS2</title>
+	<title>JS3</title>
 </head>
 <body>
 	<main>
 		<div class="task">
 			<h1>Задание 1</h1>
-			<p class="taskInfo">Напишите функцию sumArray, чтобы она перебирала все элементы массива чисел и возвращала сумму всех элементов (используя ForEach).</p>
-			<input type="number" id="task1" placeholder="Введите возраст">
+			<p class="taskInfo">Напишите функцию sumArray, чтобы она перебирала все элементы массива чисел и возвращала сумму всех элементов (используя ForEach). (sumArray([4, 6, 16, 73, 5]) // 104)</p>
+			<button id="task1">
+				press
+			</button>
 			<p id="result1" class="result">Ваш результат: </p>
 		</div>
 		<div class="task">
 			<h1>Задание 2</h1>
-			<p class="taskInfo">Напишите функцию getRemainder, чтобы она возвращала остаток деления принятых в параметрах числа и делителя.</p>
-			<div style="display: flex;">
-				<input type="text" id="task2Dividend" placeholder="Введите делимое">
-				<input type="text" id="task2Divider" placeholder="Введите делитель">
-				<button id="task2">Поделить</button>
-			</div>
+			<p class="taskInfo">Напишите функцию getAboveZero, чтобы она возвращала массив, содержащий только плюсовые температуры. (getSubZero([1, -3, -2, 4, 10]) // [1, 4, 10])</p>
+			<button id="task2">press</button>
 			<p id="result2" class="result">Ваш результат: </p>
 		</div>
 		<div class="task">
 			<h1>Задание 3</h1>
-			<p class="taskInfo">Напишите функцию faceControl, которая будет проверять возраст посетителя. Если возраст равен или больше 18, функция должна возвращать строку “Welcome", в остальных случаях строку "Отказ". С помощью if else</p>
-			<input type="text" id="task3" placeholder="Введите возраст">
+			<p class="taskInfo">Напишите фукнцию getPonies, чтобы она возвращала пони с заданным именем (getPonies([‘TwilightSparkle’, ‘RainbowDash’, ‘AppleJack’, ‘Rarity’, ‘Pinkie Pie’, ‘Fluttershy’], ‘AppleJack’))</p>
+			<input type="text" id="task3" placeholder="Введите пони">
 			<p id="result3" class="result">Ваш результат: </p>
 		</div>
 		<div class="task">
 			<h1>Задание 4</h1>
-			<p class="taskInfo">Напишите код функции getNextAge, чтобы она возвращала введенный возраст пользователя в следующем году, но и в случае, если поле ввода не заполнено (то есть если значение age пустая строка), возвращала ноль.</p>
-			<input type="text" id="task4" placeholder="Введите возраст">
+			<p class="taskInfo">Напишите функцию isTxIncluded, чтобы она возвращала true, если транзакция tx входит в блок транзакций bk, и false, если нет. (isTxIncluded(["0xaea0", "0x8f80", "0xf3ad", "0x17ec"], "0x9e0a") // false)</p>
+			<input type="text" id="task4" placeholder="Введите транзакцию">
 			<p id="result4" class="result">Ваш результат: </p>
 		</div>
 		<div class="task">
 			<h1>Задание 5</h1>
-			<p class="taskInfo">Напишите функцию canRide, возвращающую true, если рост посетителя аттракциона равен или больше 140см и false во всех остальных случаях. Функция не должна содержать if-условия</p>
-			<input type="text" id="task5" placeholder="Введите рост">
+			<p class="taskInfo">Напишите функцию getSizes, чтобы она возвращала массив, состоящий из длин строк для элементов массива words. (getSizes(["Moscow", "Coding", "School"]) // [6, 6, 6])</p>
+			<button id="task5">press</button>
 			<p id="result5" class="result">Ваш результат: </p>
+		</div>
+		<div class="task">
+			<h1>Задание 6</h1>
+			<p class="taskInfo">Напишите функцию getWithSpaces, чтобы она возвращала массив из двух элементов: <br> — строки, составленной из слов массива strings, соединенных пробелами; <br>— длины этой строки.  <br>(getWithSpaces(["Moscow", “never", “sleep"]) // ["Moscow never sleep ", 16]) и возвращала сумму всех элементов (используя ForEach).</p>
+			<button id="task6">press</button>
+			<p id="result6" class="result">Ваш результат: </p>
+		</div>
+		<div class="task">
+			<h1>Задание 7</h1>
+			<p class="taskInfo">Напишите функцию getEpisodes, чтобы она возвращала строку Аниме X включает Y серий, где X заменяется на название аниме, а Y на количество серий. Эти значения находятся в объекте anime. <br>(getEpisodes({title: "Code Geass", episodes: 25}) // "Аниме Code Geass включает 25 серий")</p>
+			<button id="task7">press</button>
+			<p id="result7" class="result">Ваш результат: </p>
+		</div>
+		<div class="task">
+			<h1>Задание 8</h1>
+			<p class="taskInfo">Функция triple возвращает свой параметр, умноженный на 3. Перепишите ее в стрелочном стиле. (triple(2) // 6)</p>
+			<input type="text" id="task8" placeholder="Введите число">
+			<p id="result8" class="result">Ваш результат: </p>
+		</div>
+		<div class="task">
+			<h1>Задание 9</h1>
+			<p class="taskInfo">Используя стрелочные функции, напишите функцию getAvgGlucose, чтобы она возвращала среднее арифметическое замеров глюкозы checks. (getAvgGlucose([5.4, 8.1, 6.3, 4.9]) // 6.2)</p>
+			<button id="task9">press</button>
+			<p id="result9" class="result">Ваш результат: </p>
 		</div>
 	</main>
 	<script type="text/javascript" src="js/script.js"></script>
