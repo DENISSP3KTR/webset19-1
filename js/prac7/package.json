@@ -1,0 +1,23 @@
+{
+  "name": "prac7",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sp3ktr",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "hbs": "^4.2.0",
+    "html": "^1.0.0",
+    "install": "^0.13.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
